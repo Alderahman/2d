@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pausePanel;
     private bool isPause;
     public string mainMenu;
+
     // Start is called before the first frame update
     void Start()
     {

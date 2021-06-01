@@ -91,6 +91,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Script\Objects\Projectile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Script\Signal\FloatSignal.cs" />
     <Compile Include="Assets\Script\Objects\Pot.cs" />
     <Compile Include="Assets\Script\Objects\Interactable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Script\ScriptableObject\SignalSender.cs" />
     <Compile Include="Assets\Script\EnemyScript\TurretLog.cs" />
+    <Compile Include="Assets\Script\Signal\FloatSignalListener.cs" />
     <Compile Include="Assets\Script\GamePlay\OverWorldRoom.cs" />
     <Compile Include="Assets\Script\Objects\RoomMove.cs" />
     <Compile Include="Assets\Script\Inventory\InventoryItem.cs" />
@@ -141,8 +143,8 @@
     <Compile Include="Assets\Script\GamePlay\CoinTextManager.cs" />
     <Compile Include="Assets\Script\ScriptableObject\FloatValue.cs" />
     <Compile Include="Assets\Script\Objects\Arrow.cs" />
-    <Compile Include="Assets\Script\Signal\FloatSignalListener.cs" />
-    <Compile Include="Assets\Script\Signal\FloatSignal.cs" />
+    <Compile Include="Assets\Script\Inventory\PhysicalInventoryItem.cs" />
+    <Compile Include="Assets\Script\PlayerScript\InventoryMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

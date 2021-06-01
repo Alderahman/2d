@@ -113,5 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUpSignal: {fileID: 11400000, guid: 745f7c487d757b3468c1e3a8d838e603, type: 2}
-  playerInventory: {fileID: 11400000, guid: c85758a0f99d646439e8591782d6c4e8, type: 2}
+  inventory: {fileID: 11400000, guid: c85758a0f99d646439e8591782d6c4e8, type: 2}
   magicValue: 2
+  currentMagic: {fileID: 11400000, guid: 448af038c9c86064cbcb64e157a4e383, type: 2}
+  maxMagic: {fileID: 11400000, guid: 60e1405ac4d95624889e57a74362da50, type: 2}

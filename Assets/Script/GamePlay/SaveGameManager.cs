@@ -20,14 +20,14 @@ public class SaveGameManager : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        LoadScriptables();
-    }
-
-    private void OnDisable()
+    public void SaveData()
     {
         SaveScriptables();
+    }
+
+    public void LoadSaveData()
+    {
+        LoadScriptables();
     }
 
     // save the game

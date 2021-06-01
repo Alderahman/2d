@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Magic Potion
   ItemDescription: Restore some of magic amount
   itemImage: {fileID: -587189176020860410, guid: 1c51008e6ad3d95488d0fb173f9a0936, type: 3}
-  itemAmount: 1
+  itemAmount: 0
   useable: 1
   unique: 0
   thisEvent:
@@ -29,6 +29,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000}
+        m_TargetAssemblyTypeName: InventoryItem, Assembly-CSharp
+        m_MethodName: decreaseAmount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

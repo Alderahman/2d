@@ -48,10 +48,16 @@ public class InventoryManager : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        ClearInventorySlot();
         MakeInventorySlot();
         SetTextAndButton("", false);
+    }
+
+    private void Update()
+    {
+        
     }
 
     public void SetupDescriptionAndButton(string newDescriptionText, bool isButtonUsable, InventoryItem newItem)
@@ -61,7 +67,7 @@ public class InventoryManager : MonoBehaviour
         useButton.SetActive(isButtonUsable);
     }
 
-    void ClearInventorySLot()
+    void ClearInventorySlot()
     {
         for(int i=0; i<inventoryPanel.transform.childCount; i++)
         {
@@ -75,7 +81,7 @@ public class InventoryManager : MonoBehaviour
         {
             currentItem.UseItem(); 
             //clear all the inventory slot
-            ClearInventorySLot();
+            ClearInventorySlot();
             //refill the inventory slot with number
             MakeInventorySlot();
             if(currentItem.itemAmount == 0)
